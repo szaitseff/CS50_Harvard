@@ -1,5 +1,5 @@
-# My CS50 Project is an interactive web application called "CS50 Digit Recognizer".
-# You can see a video presentation of my project on YouTube [here](https://www.youtube.com/watch?v=ein2VnyxFTQ)
+## My CS50 Project is an interactive web application called "CS50 Digit Recognizer".
+### You can see a video presentation of my project on YouTube [here](https://www.youtube.com/watch?v=ein2VnyxFTQ)
 
 ### Front-end:
 **Canvas**
