@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta -->
+        <meta charset="utf-8"/>
+        <meta content="initial-scale=1, width=device-width" name="viewport"/>
+
+        <!-- http://getbootstrap.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- App's own CSS -->
+        <link href="/static/styles.css" rel="stylesheet"/>
+
+        <title> CS50 Digit Recognizer </title>
+
+    </head>
+    <body>
+        <!-- Fill viewport -->
+        <div class="container">
+            <div class="page-header">
+                <h1> Digit Recognizer </h1>
+            </div>
+            <div class="jumbotron">
+                <h3 class="jumbotronHeading"> Draw a digit 0-9 inside the Box </h3>
+                <p>
+                    <canvas id="canvas" width="280" height="280"></canvas>
+                </p>
+                <p>
+                    <input type="button" id="predict-keras" value="Ask Keras Model">
+                    <input type="button" id="predict-custom" value="Ask Custom Model">
+                </p>
+                <p>
+                    <input type="button" id="clear" background-color="red" value="<CLEAR>">
+                </p>
+            </div>
+            <div class="jumbotron">
+                <h2 id="result"> Get Prediction </h2>
+            </div>
+        </div>  <!-- /container -->
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!-- app's own JavaScript -->
+        <script src="/static/scripts.js"></script>
+
+    </body>
+</html>
